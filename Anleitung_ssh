@@ -8,8 +8,9 @@ so:
 git push -u git@github.com:JohannesBal/kind.git
 
 
+Update:
 
-
+nach dem ersten Mal mittels ssh hat git sich den Fingerabdruck gemerkt und es klappt beim zweiten Mal ohne Probleme.
 
 
 Hier kommt die Anleitung für den ssh-Zugang
