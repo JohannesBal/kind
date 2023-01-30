@@ -1,0 +1,27 @@
+Hier kommt die Anleitung für den ssh-Zugang
+
+also wenn alles geklappt hat ist die Anleitung etwas wert ;-)
+
+1. ssh-Key erstellen 
+
+ssh-keygen <name>
+
+2. # start the ssh-agent in the background
+$ eval "$(ssh-agent -s)"
+> Agent pid <pid des Prozesses>
+
+3. den ssh-Key dem Schlüsselbund hinzufügen
+
+$ ssh-add ~/.ssh/id_ed25519
+
+# wenn man es im Ordner /home/user ausführt lautet der BEfehl  $ ssh-add ./<name des privatekey>
+
+3. den Public-Key hinzufügen
+
+	- Settings
+		SSH and GPG keys
+			New SSH Key
+
+als Titel habe ich den Namen des Public Key eingefügt und in den Key habe ich den Inhalt des Public Key eingefügt und dann hinzugefügt.
+
+So testen wir das mal.  
