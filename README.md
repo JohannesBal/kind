@@ -58,6 +58,6 @@ to specify a location, add a path to the directory afterthe command:
 
 Multi Node starten:
 
--
+-kind create cluster --config config-exercise.yaml
 
 
