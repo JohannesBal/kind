@@ -1,3 +1,17 @@
+Ok war nur ein TEst und es hat nicht geklappt...
+
+
+Hab es per ssh link von der git seite in das Repository gepusht...
+
+so:
+
+git push -u git@github.com:JohannesBal/kind.git
+
+
+
+
+
+
 Hier kommt die Anleitung für den ssh-Zugang
 
 also wenn alles geklappt hat ist die Anleitung etwas wert ;-)
