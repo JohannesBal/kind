@@ -34,12 +34,16 @@ sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
 
 Kind starten (Single Node) mit pre built image:
 -kind create cluster
+
+
 mit Applikation/image festsetzen:
 kind create cluster --image=nginx
 
 Loading an image into the Cluster:
 Docker pull "image"
 kind load docker-image "image"
+
+
 
 list images present on cluster node:
 docker exec -it "name of the Docker container" crictl images
